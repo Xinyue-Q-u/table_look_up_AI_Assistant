@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: heat-table-look-up-assistant
+Version: 0.1.0
+Summary: CLI assistant for heat table look up
+Requires-Dist: click>=8.1

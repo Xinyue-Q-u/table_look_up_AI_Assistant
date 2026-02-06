@@ -1,0 +1,20 @@
+query_sql_assistant/
+  app/
+    main.py
+    llm.py
+    validator.py
+    sql_builder.py
+    executor.py
+    policies.py
+    formatters.py
+  config/
+    regulations.yaml
+    schema_snapshot.json
+    schema_dict.json
+    query_plan.schema.json
+  prompts/
+    system.txt
+    few_shots.jsonl
+  tests/
+  eval/
+  README.md

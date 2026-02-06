@@ -1,0 +1,20 @@
+#pyproject.toml describes the project
+[build-system]
+requires=["setuptools>=61.0", "wheel"]
+build-backend="setuptools.build_meta"
+
+#Defined by PEP(python enhancement proposals)
+[project]
+name="heat-table-look-up-assistant"
+version="0.1.0"
+description="CLI assistant for heat table look up"
+dependencies = ["click>=8.1"]
+#optional-dependencies=[]
+[project.scripts]
+assistant="heat_table_look_up_assistant.cli.main:cli"
+[tool.heat_assistant]
+model="gpt-4.0"
+[tool.setuptools]
+package-dir={""="src"}
+[tool.setuptools.packages.find]
+where=["src"]
